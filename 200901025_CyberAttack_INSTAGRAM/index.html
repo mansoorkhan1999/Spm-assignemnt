@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technology Blogs </title>
+  <link rel="shortcut icon" href="./assets/images/fav.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="light-theme">
+  <!--
+    - #HEADER
+  -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo-container">
+          <img src="./assets/images/fav.png" alt="Tech blog's logo" width="90" height="100" id="logo-img" style="">
+        </div>
+        <div class="btn-group">
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+        </div>
+        <!-- ==========================NAVIGATION BAR============================= -->
+        <div class="flex-wrapper">
+          <ul class="desktop-nav">
+            <li>
+              <button onclick="location.href='#'" class="nav-link">Home</button>
+            </li>
+            <li>
+              <button onclick="toggleTextMode()" id="textModeBtn" class="nav-link">Text Mode</button>
+            </li>
+            <li>
+              <button id="batteryOptimizedBtn" class="nav-link" onclick="optimizeBattery()">Battery
+                Optimization</button>
+            </li>
+          </ul>
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+        </div>
+        <div class="mobile-nav">
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+          <div class="wrapper">
+            <p class="h3 nav-title">Main Menu</p>
+            <ul>
+              <li class="nav-item">
+                <button onclick="location.href='#'" class="nav-link">Home</button>
+              </li>
+              <li class="nav-item">
+                <button onclick="toggleTextMode()" id="textModeBtn" class="nav-link">Text Mode</button>
+              </li>
+              <li class="nav-item">
+                <button id="batteryOptimizedBtn" class="nav-link" onclick="optimizeBattery()">Battery
+                  Optimization</button>
+              </li>
+              <button class="theme-btn theme-btn-desktop light">
+                <ion-icon name="moon" class="moon"></ion-icon>
+                <ion-icon name="sunny" class="sun"></ion-icon>
+              </button>
+            </ul>
+          </div>
+          <div>
+            <p class="h3 nav-title">Blogs Types</p>
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Cybercrime</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Database</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Accessibility</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!--
+      - #HERO SECTION
+    -->
+    <div class="hero">
+      <div class="container">
+        <div class="left">
+          <h1 class="h1">
+            Tech <b>News&nbsp;WebPage</b>
+          </h1>
+          <p class="h3">
+            Best Tech Blogs To Follow For Information
+          </p>
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Contact Me</a>
+            <a href="#" class="btn btn-secondary">About Me</a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/hero.png" alt="Technology Blogs" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="container">
+        <!--
+          - BLOG SECTION
+        -->
+        <div class="blog">
+          <h2 class="h2">Latest Blogs Post</h2>
+         <!-- =========================================================================== -->
+          <!--                 Blog on Cyber Attack on INSTAGRAM 2020                     -->
+          <!-- =========================================================================== -->
+          <p class="copyright"></p>
+          <h1><a href="" class="h1">
+              <m>Cyber Attack on INSTAGRAM 2020</m>
+            </a></h1>
+          <div class="blog-card-banner">
+            <img src="./assets/images/insta1.png" alt="Building a Restful CRUD API with Node JS, Express, and MongoDB"
+              width="250" class="blog-banner-img">
+          </div>
+          <div class="blog-content-wrapper">
+            <h2>
+              <k><a href="" class="h2">Nearly 235 million profiles linked to social media giants Instagram, Tik-tok and
+                  Youtube have been hacked and left unproctected without any passwords</a></k>
+            </h2>
+            <p>
+            <h4 class="h4">In today's digital age, social media has become an integral part of our lives. We share
+              personal information, images, and videos on these platforms every day, making them vulnerable to cyber
+              attacks. In 2020, a major cyber attack on social media giants Instagram, TikTok, and YouTube left nearly
+              235 million profiles unprotected without any passwords, which could have devastating consequences for
+              those affected.
+              In this blog post, we'll explore what happened during the attack, how it affected Instagram users, and
+              what steps can be taken to protect your own account.
+            </h4><br>
+            <h2>
+              <k><a class="h2">What happened during the attack?</a></k>
+            </h2>
+            <h4 class="h4">The cyber attack was discovered by cybersecurity researchers who found a database containing
+              over 235 million user profiles that had been exposed to the internet without any password protection. The
+              database contained a wealth of personal information, including usernames, email addresses, phone numbers,
+              profile pictures, and more. The scale of the breach was enormous, and the potential consequences for those
+              affected were serious. The attack was first discovered when users began reporting that they were unable to
+              access their accounts. It was quickly discovered that the hackers had managed to gain access to a number
+              of accounts by exploiting a vulnerability in the platform's API. The hackers were then able to change the
+              email addresses and phone numbers associated with the accounts, effectively locking out the legitimate
+              owners.The attackers then used the compromised accounts to launch a coordinated scam campaign, which
+              involved posting messages that encouraged users to send cryptocurrency to a specific wallet address. The
+              messages were often accompanied by photos of the account owner, which added an element of authenticity to
+              the scam.The attack affected a wide range of accounts, with many high-profile users including Elon Musk,
+              Jeff Bezos, and Barack Obama being targeted. In total, it's believed that over 100 accounts were
+              compromised. The researchers found that the database was being hosted on a server located in the United
+              States, and the data appeared to have been collected over a period of several years. They also found that
+              the database was being sold on the dark web for a significant sum of money, indicating that it was likely
+              being used for nefarious purposes. The companies affected by the breach, Instagram, TikTok, and YouTube,
+              were quick to respond, with Instagram releasing a statement saying that they were investigating the matter
+              and taking steps to protect their users. TikTok and YouTube also issued statements, assuring their users
+              that they were taking the matter seriously and working to mitigate the impact of the breach. The incident
+              highlights the need for stronger cybersecurity measures on social media platforms, and the importance of
+              users taking steps to protect their personal information. It is essential that companies take steps to
+              secure their databases and protect the information of their users, and that users take steps to protect
+              themselves by using strong passwords and enabling two-factor authentication. In this blog post, we will
+              delve deeper into the cyber attack on Instagram in 2020, discussing the methods used by cybercriminals,
+              the potential consequences for affected users, and the steps companies and users can take to prevent
+              similar incidents in the future. The Method Used by Cybercriminals Cybercriminals use a variety of methods
+              to gain access to user accounts and databases, including phishing attacks, malware, and social engineering
+              tactics. In the case of the 2020 cyber attack on Instagram, TikTok, and YouTube, it is not clear how the
+              cybercriminals gained access to the database. However, it is likely that they used a form of social
+              engineering, such as a spear-phishing attack, to trick an employee of one of the companies into providing
+              them with access to the database. Spear-phishing is a targeted form of phishing attack that involves
+              sending an email or message to a specific individual, often posing as someone they know or trust, and
+              attempting to trick them into revealing sensitive information. Alternatively, the cybercriminals may have
+              exploited a vulnerability in the database software or used a brute-force attack to guess the passwords
+              used to access the database. A brute-force attack is a method of guessing passwords by trying every
+              possible combination until the correct one is found. The Consequences for Affected Users The consequences
+              of the cyber attack on Instagram, TikTok, and YouTube in 2020 could be severe for those whose personal
+              information was exposed. The database contained a wealth of information, including usernames, email
+              addresses, phone numbers, profile pictures, and more. This information could be used by cybercriminals to
+              conduct phishing attacks, identity theft, or other forms of cybercrime. For example, cybercriminals could
+              use the information to send targeted phishing emails or messages to users, posing as a trusted entity and
+              attempting to trick them into revealing sensitive information or clicking on a malicious link. In
+              addition, the information could be used for identity theft, where cybercriminals use the personal
+              information of others to open bank accounts, apply for loans, or make fraudulent purchases.</h4><br>
+            <h2>
+              <k><a class="h2">How did the attack affect Instagram users?</a></k>
+            </h2>
+            <img src="./assets/images/insta2.png" alt="Building a Restful CRUD API with Node JS, Express, and MongoDB"
+              width="250" class="blog-banner-img">
+            <h4 class="h4">For those whose accounts were compromised, the attack was a major inconvenience. Many were
+              unable to access their accounts for several days, and some had to go through a lengthy process to regain
+              control. Additionally, the attack exposed the personal information of some users, such as email addresses
+              and phone numbers.The attack also had wider implications for Instagram users as a whole. It highlighted
+              the vulnerability of the platform to cyber attacks, and raised questions about the effectiveness of
+              Instagram's security measures. The attack also served as a warning to users to be more vigilant about the
+              security of their accounts, and to take steps to protect themselves against future attacks.</h4><br>
+            <h2>
+              <k><a class="h2">What Should You Do To Protect Your Instagram Profile From That Type Of Data Breach? </a>
+              </k>
+            </h2>
+            <img src="./assets/images/insta3.png" alt="Building a Restful CRUD API with Node JS, Express, and MongoDB"
+              width="250" class="blog-banner-img">
+            <h4 class="h4">There are several steps that can be taken to help protect your Instagram account from cyber
+              attacks:</h4><br>
+            <h2><a class="h2">Use a strong, unique password: </a></h2>
+            <h4 class="h4">This is the first and most important step in securing your account. Your password should be
+              complex and unique to Instagram, and should not be used for any other online accounts.Enable two-factor
+              authentication: Two-factor authentication adds an extra layer of security to your account by requiring a
+              code in addition to your password to log in. This can prevent attackers from gaining access to your
+              account, even if they manage to obtain your password.</h4><br>
+            <h2><a class="h2">Be wary of suspicious messages and links: </a></h2>
+            <h4 class="h4">Scammers often use phishing attacks to trick users into giving away their login credentials.
+              Be wary of messages that ask you to click on links or provide personal information.Keep your app and
+              device up to date: Instagram regularly releases updates that address security vulnerabilities. Make sure
+              you're using the latest version of the app and keep your device up to date with the latest security
+              patches.</h4><br>
+            <h2><a class="h2">Monitor your account activity: </a></h2>
+            <h4 class="h4">Keep an eye on your account activity and be on the lookout for any suspicious activity. If
+              you notice anything out of the ordinary, change your password immediately and report the incident to
+              Instagram.
+              Meanwhile, all the users of TikTok, Instagram, and YouTube should be alert to email phishing scams or
+              scams related to posting as comments on social media. All the organizations having databases on the cloud
+              should definitely audit the access permissions to ensure that the database is not accessible by everyone.
+              Most importantly, do not share any sensitive data through social media platforms.
+            </h4><br>
+            <h2>
+              <k><a class="h2">Is This Data Breach A Hack? </a></k>
+            </h2>
+            <h4 class="h4">It is common to consider this a hack, however, it is not. The web scraping practice involves
+              collecting data from different web pages in an automated way. It accesses only public data. But, social
+              media firms usually do not encourage this to ensure user data protection. However, a plethora of data
+              analytics firms leverages this practice to generate a huge database. Most of these companies also derive
+              useful insights from these data and sell them to other firms in exchange for money.
+              We can witness a profusion of reports regarding user profile-related data flashing on dark web cybercrime
+              avenue. From 100,000 data breaches paving a way to steal 15 million logins to the current incident of 235
+              million data being revealed for free. So, if you think all of these profiles will get hacked, you are
+              wrong. But, these profiles are comparatively more vulnerable and the hackers might try their hands on
+              certain user profiles.
+            </h4><br>
+            <h2>
+              <k><a class="h2">A Database Of 235 Million User Information Without Password Protection </a></k>
+            </h2>
+            <img src="./assets/images/insta4.png" alt="Building a Restful CRUD API with Node JS, Express, and MongoDB"
+              width="250" class="blog-banner-img">
+            <h4 class="h4">The report says that the scraped data of over 235 million users were collated into a
+              database, which was surprisingly not password protected. This was brought to light by Bob Diachenko and
+              his fellow researchers, working for Comparitech. They identified three identical copies of the said
+              database on the 1st of August. Besides, they found that the data belonged to a firm named Deep Social.
+              However, when the company was contacted, the request was sent to Social Data, a Hong-Kong-based company.
+              Social Data acknowledged the data breach and managed to restrict the access to the humongous database,
+              although they denied any relationship with Deep Social. The web scraped data encompassed four major data
+              sets with the details of all 235 million users including their names, age, gender, profile photo, and the
+              number of followers they all had. This data is often used by hackers to perform phishing and spam
+              campaigns. Hence, social media companies have to frame stringent policies to ensure their database
+              security. </h4><br>
+            <h2>
+              <k><a class="h2">Conclusion</a></k>
+            </h2>
+            <h4 class="h4">The cyber attack on Instagram in 2020 highlighted the importance of taking steps to secure
+              your social media accounts. By using strong passwords, enabling two-factor authentication, and being
+              vigilant about suspicious activity, you can help protect yourself against future attacks. Stay safe
+              online!</h4><br>
+            </p>
+            <div class="button-container">
+              <button onclick="topFunction()" id="myBtn" title="Go to top">Go To Top</button>
+            </div><br>
+            <p class="copyright"></p>
+            <div class="wrapper-flex">
+              <div class="profile-wrapper">
+                <img src="./assets/images/author.png" alt="Julia walker" width="50">
+              </div>
+              <div class="wrapper">
+                <a href="#" class="h4">M.AHSAN ALI</a>
+                <p class="text-sm">
+                  <time datetime="2021-10-15">March 12,2023</time>
+                  <span class="separator"></span>
+                  <ion-icon name="time-outline"></ion-icon>
+                  <time datetime="PT5M">30 min</time>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- =================================================================== -->
+        </div>
+        <!--
+          - ASIDE
+        -->
+        <div class="aside">
+          <br><br>
+          <div class="topics">
+            <h2 class="h2">Tech Blogs</h2>
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="Skull-outline"></ion-icon>
+              </div>
+              <p>Cyber Crime</p>
+            </a>
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+              <p>Database</p>
+            </a>
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="accessibility-outline"></ion-icon>
+              </div>
+              <p>Accessibility</p>
+            </a>
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+              <p>Web Performance</p>
+            </a>
+          </div>
+          <br><br>
+          <!-- ==================================TEMP1============================= -->
+          <div class="tags">
+            <div class="blog-card-banner">
+              <img src="./assets/images/blog-3.png" alt="Dynamically Securing Databases using Hashicorp Vault"
+                width="250" class="blog-banner-img">
+            </div>
+            <div class="wrapper">
+              <h3><a href="" class="h3">Cyber Attack on Yahoo in 2013 stolen records of 3 billion</a></h3>
+              <button class="blog-topic text-tiny">Cyber Crime</button>
+              <p class="blog-text">
+                Hackers have stolen names, dates of birth, phone numbers and passwords with poor encryption protection.
+                In addition, they also had access to security questions and backup emails, useful information in case
+                they were unable to crack certain passwords.
+              </p>
+            </div>
+          </div>
+          <!-- ==================================TEMP 2==============================-->
+          <br><br>
+          <div class="tags">
+            <div class="blog-card-banner">
+              <img src="./assets/images/blog-7.png" alt="Dynamically Securing Databases using Hashicorp Vault"
+                width="250" class="blog-banner-img">
+            </div>
+            <div class="wrapper">
+              <h3><a href="" class="h3">Building a Restful CRUD API with Node JS, Express, and MongoDB</a></h3>
+              <button class="blog-topic text-tiny">Database</button>
+              <p class="blog-text">
+                Application Programming Interface is the abbreviation for API. An API is a software interface that
+                enables two apps to communicate with one another. In other words, an API...
+              </p>
+            </div>
+          </div>
+          <!-- ==================================TEMP3 ================================-->
+          <br><br>
+          <div class="tags">
+            <div class="blog-card-banner">
+              <img src="./assets/images/blog-6.png" alt="Dynamically Securing Databases using Hashicorp Vault"
+                width="250" class="blog-banner-img">
+            </div>
+            <div class="wrapper">
+              <h3><a href="" class="h3">Don't Develop Just for Yourself - A Developer's Checklist to Accessibility</a>
+              </h3>
+              <button class="blog-topic text-tiny">Accessibility</button>
+              <p class="blog-text">
+                We, as developers, tend to develop sites unconsciously for people like ourselves. If we don't actively
+                pay attention, the sites are often accessible only for certain...
+              </p>
+            </div>
+          </div>
+          <!-- ==================================TEMP4 ==============================-->
+          <br><br>
+          <div class="tags">
+            <div class="blog-card-banner">
+              <img src="./assets/images/blog-8.png" alt="Dynamically Securing Databases using Hashicorp Vault"
+                width="250" class="blog-banner-img">
+            </div>
+            <div class="wrapper">
+              <h3><a href="" class="h3">Monitoring Performance with the PageSpeed Insights API</a></h3>
+              <button class="blog-topic text-tiny">Web Performance</button>
+              <p class="blog-text">
+                The PageSpeed Insights API provides free access to performance monitoring for web pages and returns data
+                with suggestions for how to improve. The V5 API includes lab data from Lighthouse and real-world data
+                from the Chrome User Experience Report (CrUX).
+              </p>
+            </div>
+          </div>
+          
+          <!-- ==================================TEMP ================================-->
+          <br><br>
+          <div class="tags">
+            <h2 class="h2">What are the 10 Most Common Types of Cyber Attacks?</h2>
+            <div class="wrapper">
+              <button class="hashtag">#Malware</button>
+              <button class="hashtag">#Denial-of-Service (DoS) Attacks</button>
+              <button class="hashtag">#Phishing </button>
+              <button class="hashtag">#Spoofing </button>
+              <button class="hashtag">#Identity-Based Attacks</button>
+              <button class="hashtag">#Code Injection Attacks</button>
+              <button class="hashtag">#Supply Chain Attacks</button>
+              <button class="hashtag">#Insider Threats</button>
+              <button class="hashtag">#DNS Tunneling</button>
+              <button class="hashtag">#IoT-Based Attacks</button>
+            </div>
+          </div>
+          <div class="contact">
+            <br><br>
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Do you want to learn more about how I can help you to overcome your problems? Let us have a
+                conversation.
+              </p>
+
+              <ul class="social-link">
+
+                <li>
+                  <a href="#" class="icon-box discord">
+                    <ion-icon name="logo-discord"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box twitter">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box facebook">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <br><br>
+
+            <div class="newsletter">
+
+              <h2 class="h2">Newsletter</h2>
+
+              <div class="wrapper">
+
+                <p>
+                  Subscribe to our newsletter to be among the first to keep up with the latest updates.
+                </p>
+
+                <form action="#">
+                  <input type="email" name="email" placeholder="Email Address" required>
+
+                  <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+  </main>
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <a href="#" class="footer-logo">
+          <img src="./assets/images/fav.png" alt="Tech blog's logo" width="90" height="100" id="logo-img" style="">
+        </a>
+
+        <p class="footer-text">
+          Tech News WebPage<br>
+          Best Tech Blogs To Follow For Information
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Designed By</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Muhammad Ahsan Ali UI/UX Designer</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Computer Sceince Student</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Institute Of Space Technology</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cookie Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms Of Use</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+    <p class="copyright">
+      &copy; 200901025_CS-01 <a href="#">Design By M.AHSAN ALI </a>
+    </p>
+
+  </footer>
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
